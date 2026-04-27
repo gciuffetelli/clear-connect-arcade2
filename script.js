@@ -1,9 +1,3 @@
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(
-  React.createElement(
-    "h1",
-    null,
-    "✅ REACT IS NOW RENDERING"
-  )
-);
+document.getElementById("root").innerHTML =
+  "<h1>✅ JavaScript is executing</h1>";
+``
