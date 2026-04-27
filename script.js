@@ -1,5 +1,3 @@
-document.body.insertAdjacentHTML(
-  "beforeend",
-  "<h2 style='color:cyan'>✅ SCRIPT.JS IS LOADING</h2>"
-);
-
+document.getElementById("root").innerHTML =
+  "<h1 style='color:lime'>✅ SCRIPT.JS IS LOADING</h1>";
+``
