@@ -1,2 +1,5 @@
-document.getElementById("root").innerHTML =
-  "<h1>✅ JavaScript is executing</h1>";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  React.createElement("h1", null, "✅ React is rendering")
+);
+``
